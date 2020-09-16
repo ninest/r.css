@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700"
+    />
+    <link rel="stylesheet" href="/main.css" />
+    <!-- <link rel="stylesheet" href="/vars.css" /> -->
+    <style>
+      :root {
+        --bg: #000;
+        --header-bg: #121314;
+        --header-border: #111;
+        --nav-link: blue;
+        --nav-link-hover: #222;
+        --text: #989898;
+        --h-border: #222;
+
+        --border-radius: 0.4em;
+
+        --mobile: 500px;
+        --side: 20%;
+      }
+
+      @media only screen and (max-width: 650px) {
+        :root {
+          --side: 2rem;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="/body.css" />
+    <link rel="stylesheet" href="/font.css" />
+
+    <title>Document</title>
+    <meta name="description" content="No config CSS framework" />
+    <meta name="keywords" content="css,framework,r.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        <a href="/">r.css</a>
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+
+          <li>
+            <a href="/about">About</a>
+          </li>
+
+          <li>
+            <a href="/github">Github</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <h2>Content</h2>
+
+        <p>
+          The above is a heading. Let's see what happens when we add a few
+          paragraphs under it. Does it look nice? Perhaps not. Let's improve it
+          with the power of web and CSS.
+        </p>
+
+        <p>
+          Let's add another paragraph to see how the spacing is working and to
+          see if it plays nicely with whatever else is happening.
+        </p>
+
+        <h2>Axioms</h2>
+        <h3>First section</h3>
+        <p>Now are axioms good? Let's find out very soon.</p>
+
+        <h3>Implementations</h3>
+        <p>I think we cn conclude that they are.</p>
+      </article>
+    </main>
+  </body>
+</html>
