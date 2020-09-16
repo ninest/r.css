@@ -1,7 +1,10 @@
 :root {
   --bg: #fefefe;
   --header-bg: #eeeeee;
+  --header-border: #ececec;
   --text: #333;
+  --h-border: #ccc;
+  --nav-link: blue;
 
   --mobile: 500px;
   --side: 20%;
@@ -11,4 +14,8 @@
   :root {
     --side: 2rem;
   }
+}
+
+.dark :root {
+  --bg: red;
 }

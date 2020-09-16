@@ -1,0 +1,37 @@
+body {
+  line-height: 1.7;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2.4;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+  border-bottom: 1px solid var(--h-border);
+}
+h3 {
+  font-size: 1.9rem;
+}
+h3 {
+  font-size: 1.6rem;
+}
+h4 {
+  font-size: 1.3rem;
+}
+h5 {
+  font-size: 1.1rem;
+}
+h6 {
+  font-size: 0.8rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}

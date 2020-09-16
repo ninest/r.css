@@ -1,5 +1,6 @@
 body {
   background-color: var(--bg);
+  color: var(--text);
 }
 
 header,
@@ -9,13 +10,31 @@ main {
 
 header {
   background-color: var(--header-bg);
+  border-bottom: 1px solid var(--header-border);
 }
 header h1 a {
   color: var(--text);
   text-decoration: none;
+
+  font-size: 3.2rem;
 }
 header ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+header ul li a {
+  color: var(--nav-link);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+header ul li + li {
+  margin-left: 1rem;
+}
+header ul li + li::before {
+  content: "/";
+  margin-right: 0.8rem;
 }
 
 main {
