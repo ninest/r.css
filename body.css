@@ -25,17 +25,27 @@ header ul {
   display: flex;
 }
 header ul li a {
-  color: var(--nav-link);
+  /* color: var(--nav-link); */
+  color: unset;
+  text-decoration: unset;
   font-size: 1.2rem;
   font-weight: 500;
+
+  margin: -0.25em -0.6em;
+  padding: 0.25em 0.6em;
+  border-radius: var(--border-radius);
 }
+header ul li a:hover {
+  background: var(--nav-link-hover);
+}
+
 header ul li + li {
   margin-left: 1rem;
 }
-header ul li + li::before {
+/* header ul li + li::before {
   content: "/";
   margin-right: 0.8rem;
-}
+} */
 
 main {
   background-color: var(--bg);
