@@ -1,0 +1,14 @@
+:root {
+  --bg: #fefefe;
+  --header-bg: #eeeeee;
+  --text: #333;
+
+  --mobile: 500px;
+  --side: 20%;
+}
+
+@media only screen and (max-width: 650px) {
+  :root {
+    --side: 2rem;
+  }
+}

@@ -1,0 +1,23 @@
+body {
+  background-color: var(--bg);
+}
+
+header,
+main {
+  padding: 2rem var(--side);
+}
+
+header {
+  background-color: var(--header-bg);
+}
+header h1 a {
+  color: var(--text);
+  text-decoration: none;
+}
+header ul {
+  list-style: none;
+}
+
+main {
+  background-color: var(--bg);
+}
