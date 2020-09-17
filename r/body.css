@@ -5,18 +5,17 @@ body {
 
 header,
 main {
-  padding: 2rem var(--side);
+  padding: 1rem var(--side);
 }
 
 header {
   background-color: var(--header-bg);
   border-bottom: 1px solid var(--header-border);
 }
+
 header h1 a {
   color: var(--text);
   text-decoration: none;
-
-  font-size: 3.2rem;
 }
 header ul {
   list-style: none;
@@ -28,7 +27,7 @@ header ul li a {
   /* color: var(--nav-link); */
   color: unset;
   text-decoration: unset;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
 
   margin: -0.25em -0.6em;
@@ -48,5 +47,6 @@ header ul li + li {
 } */
 
 main {
+  margin-top: 0.75em;
   background-color: var(--bg);
 }

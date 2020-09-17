@@ -7,31 +7,43 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.2.4;
+  line-height: 1.24;
   font-weight: 900;
-  margin-bottom: 1rem;
+
+  margin-top: 1.2rem;
+  margin-bottom: 0.95rem;
+
+  color: var(--h-text);
+}
+
+/* main page title */
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3rem;
+  color: var(--h-text);
 }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   border-bottom: 1px solid var(--h-border);
 }
 h3 {
-  font-size: 1.9rem;
+  font-size: 1.8rem;
 }
 h3 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 h5 {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 h6 {
   font-size: 0.8rem;
 }
 
 p {
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
